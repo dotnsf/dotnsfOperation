@@ -31,7 +31,7 @@ const plan1 = {
 };
 
 //. service endpoint
-var service_host = 'dotnsf-operation.mybluemix.net'; //'148.100.4.193';
+var service_host = 'dotnsf-operation.mybluemix.net';
 var service_port = appEnv.port ? appEnv.port : 1337;
 var service_base = service_host; // + ':' + service_port;
 var service_instance = 'http://' + service_base + '/operation/';
